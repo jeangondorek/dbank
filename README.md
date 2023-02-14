@@ -10,6 +10,5 @@ Projeto front-end de uma página web de uma fintech.
 
 ### Utilizando
 - React
-- React-Boostrap
-- SASS
 - Boostrap
+- SASS

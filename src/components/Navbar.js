@@ -1,6 +1,6 @@
 import React from "react";
 import {Navbar, Nav, NavDropdown, Container, ButtonGroup, Button} from "react-bootstrap";
-import "./Navbar.scss";
+import "../scss/Navbar.scss";
 import Dbank from "../assets/Dbank.svg";
 
 const Navigation = () =>(
