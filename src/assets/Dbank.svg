@@ -1,0 +1,12 @@
+<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 127 31" width="127" height="31">
+	<title>Dbank</title>
+	<style>
+		tspan { white-space:pre } 
+		.t0 { font-size: 14px;fill: #ffffff;font-weight: 700;font-style: italic;font-family: "Montserrat-BoldItalic", "Montserrat" } 
+		.t1 { font-size: 14px;fill: #ffffff;font-weight: 300;font-style: italic;font-family: "Montserrat-LightItalic", "Montserrat" } 
+	</style>
+	<text id="Dbank" style="transform: matrix(2.858,0,0,2.858,-1,30.058)" >
+		<tspan x="0" y="0" class="t0" dx="0" >D</tspan><tspan  y="0" class="t1" dx="0" >b</tspan><tspan  y="0" class="t1" dx="0" >a</tspan><tspan  y="0" class="t1" dx="0 -1 -1" >nk
+</tspan>
+	</text>
+</svg>

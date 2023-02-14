@@ -5,5 +5,11 @@ Projeto front-end de uma página web de uma fintech.
 
 - ```npm install```
 
-## Rodando o projeto
+#### Rodando o projeto
 - ```npm start```
+
+### Utilizando
+- React
+- React-Boostrap
+- SASS
+- Boostrap
