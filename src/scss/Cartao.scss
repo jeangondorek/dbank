@@ -1,22 +1,32 @@
 @import url('https://fonts.googleapis.com/css2?family=Advent+Pro:wght@300;400&display=swap');
+@import "./_variables.scss";
+
 
 h2{
-    font-size: 40px;
+    font-size: 2rem;
     font-weight: 300;
     font-family: 'Advent Pro', sans-serif;
-    color: #8c00b2;;
+    color: $color-primary;
+
+    @media screen and (min-width: 992px){
+        font-size: 3.5rem;
+    }
 }
 
 .secc{
-    font-size: 22px;
-    color: #777777;
+    font-size: 1.5rem;
+    color: $color-secondary;
     display: inline-block;
     align-content: start;
     font-family: 'Advent Pro', sans-serif;
+
+    @media screen and (min-width: 992px){
+        font-size: 1.5rem;
+    }
 }
 
 .iconcolor{
-    color: #f05656;
+    color: $color-three;
     margin-right: 1rem;
     width: 1rem;
     height: 1rem;

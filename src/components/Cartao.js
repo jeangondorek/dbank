@@ -1,6 +1,6 @@
 import React from "react";
 import "../scss/Cartao.scss";
-import {Container, Col, Row, Image, Button} from "react-bootstrap";
+import {Container, Col, Row, Image} from "react-bootstrap";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faCartShopping , faCreditCard, faMobile, faWallet } from '@fortawesome/free-solid-svg-icons';
 import Cart from '../assets/cartao.png';
@@ -13,7 +13,7 @@ const Cartao = () =>(
             <Col>
                 <h2 className="mx-0 mb-5">Cartão de Cŕedito</h2>
                 <Row className="d-lg-none d-block ms-5">
-                    <Col className="ms-5 text-start">
+                    <Col className=" ms-5 text-start">
                         <FontAwesomeIcon className="iconcolor" icon={faCreditCard} />
                         <p className="secc">Crédito Pessoal</p>
                     </Col>
@@ -58,7 +58,6 @@ const Cartao = () =>(
             </Col>
         </Row>
         <CardList posts={posts}/>
-        <Button className="position-absolute start-50 translate-middle d-block mt-5 mb-5 px-5" variant="success">Abra sua conta</Button>
     </Container>
 );
 

@@ -3,7 +3,7 @@ import {Card,Button, Container} from "react-bootstrap";
 
 const CardList = ({posts}) =>(
     <Container className="mt-5">
-        {posts.map(({id,image,title,excerpt,action}) => (
+        {posts && posts.map(({id,image,title,excerpt,action}) => (
             <Card key={id} xs={12} lg={4} className="d-inline-block m-3" style={{ width: '18rem'}}>
                 <Card.Img variant="top" src={image} />
                 <Card.Body>
