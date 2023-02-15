@@ -7,7 +7,7 @@ import { faGlobe, faMobileAndroid, faMobileRetro, faShield } from '@fortawesome/
 const IconText = ({icon, size}) => (
     <Container>
         <Row>
-            <Col>
+            <Col className="my-5">
                 <FontAwesomeIcon className="me-2 d-inline-block" icon={faMobileRetro} /> <p className="d-inline-block">Sem fila e sem burocracia</p><br/>
                 <FontAwesomeIcon className="me-2 d-inline-block" icon={faMobileAndroid} /> <p className="d-inline-block">Simples e prático</p><br/>
                 <FontAwesomeIcon className="me-2 d-inline-block" icon={faGlobe} /> <p className="d-inline-block">Abertura de conta 100% online</p><br/>
