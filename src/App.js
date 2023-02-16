@@ -5,6 +5,7 @@ import Hero from "./components/Hero";
 import Cartao from "./components/Cartao";
 import Botao from "./components/Botao";
 import Institucional from "./components/Institucional";
+import FAQ from "./components/FAQ";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <Cartao/>
       <Botao/>
       <Institucional/>
+      <FAQ />
     </div>
   );
 }

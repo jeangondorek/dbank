@@ -1,0 +1,30 @@
+@import './_variables.scss';
+
+.faq{
+    background-color: $color-faq;
+}
+
+.accordion-button{
+    font-size: 1.5rem;
+    background-color: $color-faq2;
+    color: #fff;
+}
+
+.accordion-button:hover{
+    background-color: $color-faq2;
+    color: #fff;
+}
+
+.accordion-button:focus{
+    background-color: $color-faq2;
+    color: #fff;
+}
+
+.accordion-button:first-of-type{
+    background-color: $color-faq2;
+    color: #fff;
+}
+
+.accordion{
+    --bs-accordion-border-color: $color-faq2;
+}

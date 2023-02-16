@@ -4,7 +4,7 @@ import {Container, Row, Col} from "react-bootstrap";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faGlobe, faMobileAndroid, faMobileRetro, faShield } from '@fortawesome/free-solid-svg-icons';
 
-const IconText = ({icon, size}) => (
+const IconText = () => (
     <Container>
         <Row>
             <Col className="my-5">
