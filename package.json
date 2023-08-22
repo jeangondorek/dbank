@@ -11,22 +11,21 @@
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
     "bootstrap": "^5.3.1",
-    "css-select": "3.1.0",
     "font-awesome": "^4.7.0",
     "minimist": "^1.2.8",
-    "nth-check": "^2.1.1",
     "react": "^18.2.0",
     "react-bootstrap": "^2.8.0",
     "react-dom": "^18.2.0",
     "react-scripts": "^5.0.1",
-    "request": "^2.88.2",
     "sass": "^1.66.1",
-    "semver": "^7.5.4",
-    "svgo": "3.0.2",
-    "tough-cookie": "^4.1.3",
     "web-vitals": "^2.1.4",
     "webpack": "^5.88.2",
     "word-wrap": "^1.2.5"
+  },
+  "overrides": {
+    "semver": "^7.5.4",
+    "tough-cookie": "^4.1.3",
+    "nth-check": "^2.1.1"
   },
   "scripts": {
     "start": "react-scripts start",
