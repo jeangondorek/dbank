@@ -19,7 +19,7 @@
     "react-scripts": "^5.0.1",
     "sass": "^1.66.1",
     "web-vitals": "^2.1.4",
-    "webpack": "^5.88.2",
+    "webpack": "^5.89.0",
     "word-wrap": "^1.2.5"
   },
   "overrides": {
